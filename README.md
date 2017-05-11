@@ -1,12 +1,16 @@
-Liferay 6.2.5 GA6 on Tomcat with mysql DB (two containers)
-==========================================================
+Liferay DXP on Tomcat with mysql DB (two containers)
+===
 
-Image available in docker registry: https://hub.docker.com/r/ctliv/liferay/
+This project was initially forked from `ctliv/docker-liferay-mysql` and adapted for use with a more recent version of LifeRay.
 
-## Pulling:
+## DockerHub repo
+
+Image available in docker registry: https://hub.docker.com/r/mrsvan/docker-liferay-mysql
+
+### Pulling:
 
 ```
-docker pull ctliv/liferay:6.2
+docker pull mrsvan/docker-liferay-mysql
 ```
 
 ## Launching using "docker run":
