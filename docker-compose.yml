@@ -1,5 +1,5 @@
 lep-as:
-  image: mrsvan/docker-liferay-mysql:7.0.0
+  image: mrsvan/docker-liferay-mysql:latest
   container_name: lep-as
   dns:
   - 8.8.8.8
