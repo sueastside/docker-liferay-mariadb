@@ -1,5 +1,5 @@
 lep-as:
-  image: docker-liferay-mariadb:latest
+  image: mrsvan/docker-liferay-mariadb:latest
   container_name: lep-as
   dns:
   - 8.8.8.8
