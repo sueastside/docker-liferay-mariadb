@@ -1,4 +1,4 @@
-Liferay DXP on Tomcat with mysql DB (two containers)
+Liferay DXP on Tomcat with MariaDB (two containers)
 ===
 
 This project was initially forked from `ctliv/docker-liferay-mysql` and adapted for use with a more recent version of LifeRay.
