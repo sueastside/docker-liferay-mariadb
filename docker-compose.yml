@@ -1,5 +1,5 @@
 lep-as:
-  image: mrsvan/docker-liferay-mysql:latest
+  image: docker-liferay-mariadb:latest
   container_name: lep-as
   dns:
   - 8.8.8.8
@@ -18,7 +18,7 @@ lep-as:
   links:
   - "lep-db"
 lep-db:
-  image: mysql:5.7
+  image: mariadb:10.1.23
   container_name: lep-db
   dns:
   - 8.8.8.8

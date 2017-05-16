@@ -3,8 +3,8 @@
 showhelp () {
 	echo "USAGE: lep-boot.sh [options]"
 	echo "OPTIONS:"
-	echo "    -d          Startup DB (default: false, default image: \"mysql:5.7\")"
-	echo "    -a          Startup AS (default: false, default image: \"ctliv/liferay:7.0\")"
+	echo "    -d          Startup DB (default: false, default image: \"mariadb:10.1.23\")"
+	echo "    -a          Startup AS (default: false, default image: \"mrsvan/docker-liferay-mariadb:latest\")"
 	echo "    -n          Avoid AS startup wizard (default: false)"
 	echo "    -h <host>   Public hostname of the VM (default: \"lep-dev.dynu.com\")"
 	echo "    -s          Stops (if running) and remove container(s)"
